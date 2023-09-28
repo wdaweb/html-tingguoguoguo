@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <style>
+    body {
+      border: solid;
+      padding:24px;
+      width: 800px;
+
+    }
+  </style>
+  <h1 id="top"><b><i>前端技術</i></b></h1>
+  <p>學習前端需了解各項技術原理的運作，特別重要的是在 <b>「觀念建立」、「反覆練習」、「互相討論」</b>的循環，只<br>
+    有不斷嘗試才能在過程中找出自己常犯的錯誤，為自己建立厚實的基礎。日後在期末專題才能發揮所學，設計出<br>
+    結構穩固、兼具美觀、互動功能的網站。 若有遇到不了解或是忘記的語法，可以擅用網路資源，例如： Google <br>
+    、<a href="https://developer.mozilla.org/zh-TW/"> MDN </a>或<a href="https://www.w3schools.com/"> W3school </a>查詢。</p>
+
+    <h2>使用以下錨點跳至指定的位置：</h2>
+    <ul>
+      <a href="#html"><li>HTML</li></a>
+      <a href="#css"><li>CSS</li></a>
+      <a href="#js"><li>JavaScript</li></a>
+      <a href="#jq"><li>JQuery</li></a>
+      <a href="#bt"><li>Bootstrap</li></a>
+    </ul>
+
+    <hr id="html">
+    <br>
+
+    <img class="html" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/180px-HTML5_logo_and_wordmark.svg.png" width="200px" alt="">
+    <h2>HTML-負責架構、內容</h2>
+    <p>超文本標記語言（英語：HyperText Markup Language，簡稱：HTML）是一種用於建立網頁的標準標記語言。
+      HTML 是一種基礎技術，常與 CSS、JavaScript 一起被眾多網站用於設計賞心悅目的網頁、網頁應用程式以及行
+      動應用程式的使用者介面。網頁瀏覽器可以讀取 HTML 檔案，並將其彩現成視覺化網頁。HTML 描述了一個網站
+      的結構語意隨著線索的呈現，使之成為一種標記語言而非程式語言。
+      </p>
+      <h3>基礎結構：</h3>
+      <pre>
+        <code>
+&lt;html&gt;
+    &lt;head&gt;
+
+    &lt;/head&gt;
+    &lt;body&gt;
+
+    &lt;/body&gt;
+ &lt;/html&gt;
+        </code>
+      </pre>
+      <h3>標籤特性：</h3>
+      <ol>
+        <li> 標籤不分大小寫，但請用小寫。</li>
+        <li>"<>" 開頭，" < />" 結尾。</li>
+        <li>標籤具有屬性與值的特性。</li>
+        <li>標籤標記內容，產生語義，組合成了結構。</li>
+      </ol>
+      <a href="#top"><b>回頂端</b></a>
+      
+      <hr id="css">
+      <br>
+
+      <img class="css" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/330px-CSS3_logo_and_wordmark.svg.png" width="145px" alt="">
+          <style>
+            .css{
+              margin-left: 24px;
+            }
+          </style>
+      <h2>CSS-負責外觀、樣式</h2>
+      <p>層疊樣式表（英語：Cascading Style Sheets，簡寫CSS），又稱串樣式列表、級聯樣式表、串接樣式表、階層式樣
+        式表，一種用來為結構化文件（如 HTML 文件或 XML 應用）添加樣式（字型、間距和顏色等）的電腦語言，由
+        W3C 定義和維護。目前最新版本是 CSS2.1，為 W3C 的推薦標準。CSS3 現在已被大部分現代瀏覽器支援，而下
+        一版的 CSS4 仍在開發中。</p>
+        <a href="#top"><b>回頂端</b></a>
+
+        <hr id="js">
+        <br>
+
+        <img class="js "src="data:image/png;base64,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" width="216px" alt="">
+          <style>
+            .js{
+              margin-left: -12px;
+            }
+          </style>
+          <h2>JavaScript-負責行為、互動</h2>
+          <p>JavaScript，通常縮寫為 JS，是一種進階直譯語言的程式語言。JavaScript 是一門基於原型、函式先行的語言，是
+            一門多範式的語言，它支援物件導向編程，指令式程式設計，以及函式語言程式設計。</p>
+          <a href="#top"><b>回頂端</b></a>
+        
+          <hr id="jq">
+          <br>
+
+          <img src="data:image/png;base64,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" width="200px" alt="">
+          <h2>jQuery-JavaScript函式庫</h2>
+          <p>jQuery 是一套跨瀏覽器的 JavaScript 函式庫，簡化 HTML 與 JavaScript 之間的操作。全球前 10,000 個存取最高的
+            網站中，有 65% 使用了jQuery，是目前最受歡迎的 JavaScript 函式庫。</p>
+          <a href="#top"><b>回頂端</b></a>
+          
+          <hr id="bt">
+          <br>
+
+          <img class="bt" src="https://www.rlogical.com/wp-content/uploads/2023/03/icon-botsrap-1.webp" width="200px" alt="">
+              <style>
+                .bt{
+                  margin-left:10px
+                }
+              </style>
+          <h2>Bootstrap-CSS UI 框架</h2>
+          <p>Bootstrap 是一組用於網站和網路應用程式開發的開源前端（所謂「前端」，指的是展現給終端使用者的介面。與
+            之對應的「後端」是在伺服器上面執行的程式碼）框架，包括 HTML、CSS及JavaScript 的框架，提供字體排印、
+            表單、按鈕、導航及其他各種元件及 Javascript 擴充套件，旨在使動態網頁和 Web 應用的開發更加容易。</p>
+          <a href="#top"><b>回頂端</b></a>
+          
+          <hr>
+          <br>
+
+          <h2 align="center">座位表</h2>
+
+          <table border="1" align="center" width="720">
+            <tr align="center">
+              <td colspan="4">
+                <table border="1">
+                  <tr>
+                    <td>老師的位置</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr align="center">
+              <td>4號</td>
+              <td>3號</td>
+              <td>2號</td>
+              <td>1號</td>
+            </tr>
+            <tr align="center">
+              <td>8號</td>
+              <td>7號</td>
+              <td>6號</td>
+              <td>5號</td>
+            </tr>
+            <tr align="center">
+              <td>12號</td>
+              <td>11號</td>
+              <td>10號</td>
+              <td>9號</td>
+            </tr>
+            <tr align="center">
+              <td>16號</td>
+              <td>15號</td>
+              <td>14號</td>
+              <td>13號</td>
+            </tr>
+            <tr align="center">
+              <td>20號</td>
+              <td>19號</td>
+              <td>18號</td>
+              <td>17號</td>
+            </tr>
+            <tr align="center">
+              <td>24號</td>
+              <td>23號</td>
+              <td>22號</td>
+              <td>21號</td>
+            </tr>
+          </table>
+          
+          </body>
+</html>
